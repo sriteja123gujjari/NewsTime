@@ -1,75 +1,3 @@
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
 
 body, h1, h2, p {
     margin: 0;
@@ -123,6 +51,28 @@ header::after {
     clear: both;
 }
 
+.login {
+  margin-right: 6%; /* Adjust margin as needed */
+  float: right;
+  padding-left: 13px;
+}
+
+.login a {
+  display: inline-block;
+  background-color: #c92828;
+  color: #e0dcdc;
+  border: none;
+  border-radius: 5px;
+  padding: 9px 19px; /* Example padding for all sides */
+  
+  text-decoration: none; /* Remove underline from link */
+  cursor: pointer;
+}
+
+.login a:hover {
+  background-color: #e60000; /* Darker red color on hover */
+}
+
 .search-bar {
     text-align: right;
 }
@@ -139,9 +89,14 @@ header::after {
     color: #e0dcdc;
     border: none;
     border-radius: 5px;
-    padding: 0.5rem 1rem;
+    padding: 11px 20px;
     margin-left: 1rem;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.search-button:hover {
+  background-color: #e60000; /* Darker red color on hover */
 }
 
 /* Main content area */
