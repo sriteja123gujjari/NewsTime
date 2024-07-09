@@ -72,7 +72,7 @@ header::after {
 }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -97,7 +97,7 @@ nav a {
 
 a {
     text-decoration: none;
-    color: inherit; /* This inherits the color from its parent element */
+    color: inherit; 
 }
     
 
@@ -113,7 +113,14 @@ main {
     padding: 1em;
     border: 2px solid hsl(0, 0%, 23%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 880px;
+    width: 1137px;
+}
+
+img{
+    border: 0;
+    width: 400px;
+    
+    
 }
 
 .news-section h2 {
