@@ -4,23 +4,22 @@ body, h1, h2, p {
     padding: 0;
 }
 
-/* Basic styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f6f7ff;
 }
 
-/* Header styles */
 header {
-    background-color: #333;
+    background-color: #141414;
     color: #fff;
     text-align: center;
     padding: 1rem;
 }
 
-/* Navigation menu styles */
+
 nav {
-    background-color: #444;
+    background-color: #272727;
     text-align: center;
     padding: 0.5rem;
 }
@@ -31,20 +30,23 @@ nav a {
     margin: 0 1rem;
 }
 
+a:hover{
+    color: #e60000;
+}
 .header-left {
     float: left;
-    /* Adjust the width as needed to fit your logo */
+    
     width: 0%;
 }
 
 .header-right {
     float: right;
-    /* Adjust the width as needed to balance the header layout */
+
     width: 80%;
     text-align: left;
 }
 
-/* Clear floats after the header elements */
+
 header::after {
     content: "";
     display: table;
@@ -52,7 +54,7 @@ header::after {
 }
 
 .login {
-  margin-right: 6%; /* Adjust margin as needed */
+  margin-right: 6%; /
   float: right;
   padding-left: 13px;
 }
@@ -63,14 +65,14 @@ header::after {
   color: #e0dcdc;
   border: none;
   border-radius: 5px;
-  padding: 9px 19px; /* Example padding for all sides */
+  padding: 9px 19px; 
   
-  text-decoration: none; /* Remove underline from link */
+  text-decoration: none; 
   cursor: pointer;
 }
 
 .login a:hover {
-  background-color: #e60000; /* Darker red color on hover */
+  background-color: #e60000; 
 }
 
 .search-bar {
@@ -85,6 +87,7 @@ header::after {
 }
 
 .search-button {
+    display: inline-block;
     background-color: #c92828;
     color: #e0dcdc;
     border: none;
@@ -96,17 +99,17 @@ header::after {
 }
 
 .search-button:hover {
-  background-color: #e60000; /* Darker red color on hover */
+  background-color: #e60000; 
 }
 
-/* Main content area */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
 }
 
-/* Section styles */
+
 .section {
     background-color: #fff;
     border-radius: 5px;
@@ -114,8 +117,13 @@ header::after {
     padding: 1rem;
     margin-bottom: 1rem;
 }
+p{
+    font-family: sans-serifs;
+    font-size: 25;
+    font-size: larger;
+}
 
-/* Footer styles */
+
 footer {
     background-color: #272525;
     color: #fff;
