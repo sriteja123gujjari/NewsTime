@@ -17,7 +17,7 @@ header {
     padding: 1rem;
 }
 
-/* Navigation menu styles */
+
 nav {
     background-color: #444;
     text-align: center;
@@ -32,18 +32,16 @@ nav a {
 
 .header-left {
     float: left;
-    /* Adjust the width as needed to fit your logo */
     width: 0%;
 }
 
 .header-right {
     float: right;
-    /* Adjust the width as needed to balance the header layout */
     width: 80%;
     text-align: left;
 }
 
-/* Clear floats after the header elements */
+
 header::after {
     content: "";
     display: table;
@@ -71,6 +69,10 @@ header::after {
     cursor: pointer;
 }
 
+.search-button:hover{
+    background-color: #e60000;
+}
+
 header {
     background-color: #000000;
     color: #fff;
@@ -95,9 +97,14 @@ nav a {
     text-decoration: none;
 }
 
+
+
 a {
     text-decoration: none;
     color: inherit; 
+}
+a:hover{
+    color: #e60000;
 }
     
 
@@ -111,13 +118,13 @@ main {
 .news-section {
     background-color: #ffffff;
     padding: 1em;
-    border: 2px solid hsl(0, 0%, 23%);
+    border: 2px solid hsl(0, 2%, 25%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 1137px;
+    width: 1037px;
 }
 
 img{
-    border: 0;
+    border: 2px;
     width: 400px;
     
     
@@ -125,6 +132,8 @@ img{
 
 .news-section h2 {
     margin-top: 0;
+    text-decoration-color: #e60000;
+    color: #0f0f0f;
 }
 
 .news-section ul {
@@ -135,7 +144,7 @@ img{
 
 .news-section li {
     margin-bottom: 20px;
-    text-decoration: none;
+    text-decoration:black ;
 }
 
 .news-section h3 {
@@ -143,6 +152,7 @@ img{
 }
 
 .news-section p {
-    font-size: 14px;
-    color: #666;
+   font-family: monospace;
+    font-size: 16px;
+    color: #202020;
 }
